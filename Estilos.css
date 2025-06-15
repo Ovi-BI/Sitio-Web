@@ -1,0 +1,78 @@
+body {
+    background-color: lightblue;
+}
+
+header, article, aside, footer {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+}
+
+h1 {
+    color: darkblue;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFD700;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+nav li a:hover {
+    background-color: #FF0000;
+    color: white;
+}
+
+nav li a.active {
+    background-color: #800080;
+    color: white;
+}
+
+p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+article div {
+    width: 50%;
+    background-color: rgb(200, 200, 200);
+    margin: 0 auto;
+}
+
+article img {
+    width: 49%;
+    height: auto;
+}
+
+aside div {
+    width: 24%;
+    float: left;
+    background-color: rgb(200, 200, 200);
+}
+
+aside img {
+    width: 100%;
+    height: auto;
+}
+
+
